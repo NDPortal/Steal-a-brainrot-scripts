@@ -68,6 +68,10 @@ elseif currentPlaceId == 109983668079237 or currentPlaceId == 96342491571673 the
     print("Detected 'infjumpandgravity' game. Executing its script and showing message.")
     executeScript("https://raw.githubusercontent.com/NDPortal/Steal-a-brainrot-scripts/refs/heads/main/infjumpandgravity.lua")
     showMessageBox("Game Detected", "Steal A Brainrot")
+elseif currentPlaceId == 18552968206 then
+    print("Detected 'rivals' game. Executing its script and showing message.")
+    executeScript("https://raw.githubusercontent.com/NDPortal/Steal-a-brainrot-scripts/refs/heads/main/rivals.lua")
+    showMessageBox("Game Detected", "Rivals")
 else
     print("The current game ID does not match any of the specified scripts.")
 end
